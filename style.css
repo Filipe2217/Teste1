@@ -1,0 +1,63 @@
+body {
+background-image: url(../Downloads/bahiaimagem.jpg);
+background-size: cover;
+background-repeat: no-repeat;
+}
+
+p {
+color: whitesmoke;	
+font-size: 15px;
+font-style: oblique;
+}
+
+h1 { color:aliceblue;
+   
+}
+
+.login-container {
+    width: 300px;
+    margin: auto; /* centraliza horizontalmente */
+    margin-top: 50px; /* define a margem superior para afastar o formulário da parte superior */
+    border: 1px solid #ccc;
+    padding: 20px;
+    border-radius: 10px;
+    background-image: linear-gradient(120deg, white, blue, red)
+    
+    
+
+  }
+  
+  h2 {
+    text-align: center;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  input[type=text], input[type=password] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #fff;
+    box-shadow: 1px 1px 1px #ccc;
+  }
+  
+  input[type=submit] {
+    width: 100%;
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+  }
+  
+  input[type=submit]:hover {
+    background-color: #3e8e41;
+  }
