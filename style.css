@@ -1,5 +1,6 @@
 body{
- background-color:lightgreen ;      
+ background-image: url("gato.jpg");    
+ background-repeat: no-repeat;     
 }
 h1{
     color:white;
